@@ -239,6 +239,14 @@
     transition: all .3s linear;
 }
 
+.lynn_locations_item1 a:active {
+    border-color: #C3623B;
+    -o-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
 .lynn_locations_item1_img {
     display: flex;
     justify-content: flex-start;
@@ -383,6 +391,7 @@
 }
 
 @media (max-width: 414px) {
+
     .lynn_locations_map_content1 ul li:nth-child(1),
     .lynn_locations_map_content1 ul li:nth-child(5) {
         color: #C3623B;
